@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: Alkatra;
+    background-color: rgb(189, 207, 127);
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    text-align: center;
+    background-color: rgb(255, 224, 224);
+    box-shadow: 5px 4px 5px -2px rgb(216, 100, 100);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.banner{
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    color:rgb(243, 183, 183);
+}
+div a{
+    text-decoration: none;
+    text-align: center;
+}
+nav{
+    padding: 10px 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(171, 81, 69);
+    font-size: 20px;
+    padding: 15px 15px;
+    font-family: Alkatra;
+    transition: 0.5s;
+    border-radius: 20px 5px 20px 5px;
+}
+section.home{
+    height: 800px;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    padding-top: 300px;
+    backdrop-filter: 50px;
+}
+.containerHome{
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 25px;
+    background-color: rgb(254, 204, 204);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    height: 350px;
+    & p{
+        color: rgb(105, 168, 85);
+        font-size: 15px;
+    }
+}
+.containerHome a{
+    text-decoration: none;
+    color: rgb(105, 167, 102);
+    background-color: rgb(199, 238, 201);
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 3px 3px 5px -2px rgb(163, 1, 1);
+    border: 1px rgb(103, 0, 0);
+}
+.containerHome a:hover{
+    box-shadow: 5px 5px 10px -2px;
+    border: none;
+    color: rgb(126, 26, 0);
+    transition: 0.3s;
+    box-shadow: 0px 5px 2px -2px rgb(158, 0, 0);
+    
+}
+section.about{
+    height: 800px;
+    text-align: center;
+}
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(156, 54, 54);
+    box-shadow: 0px -5px 15px 5px rgb(0, 0, 0);
+    & img{
+        width: 300px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px -5px 15px 5px rgb(0, 0, 0);
+    }
+}
+section.tutorial{
+    height: 1000px;
+    text-align: center;
+}
+.tutorial img{
+    height: 500px;
+    width: 400px;
+}
+.containertutorial{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color:rgb(170, 9, 9);
+    background-color: rgb(107, 142, 101);
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin: 10px;
+    & p{
+        color: rgb(231, 231, 231);
+        font-size: 15px;
+    }
+    h3{
+        border-radius: 20px;
+        padding: 10px 10px;
+        margin: 10px;
+        background-color: rgb(225, 207, 149);
+    }
+}
+.dokumentasi{
+    margin: 100px;
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+    padding-top: 50px;
+}
+.cardProfile{
+    background-color: aliceblue;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+
+}
+.namaBiotech{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.deskBiotech{
+    color: rgb(2, 82, 6);
+    font-size: 20px;
+}
+section.project img{
+    height: 300px;
+    box-shadow: 2px -5px 25px 5px rgb(0, 0, 0);
+}
+nav a:hover{
+    color: rgb(133, 4, 4);
+    background-color: rgb(170, 194, 163);
+    border-radius: 5px 0px 5px 0px;
+    box-shadow: 5px 1px 5px 1px rgb(110, 1, 1);
+    padding: 1px 15px;
+    transition: 0.5s;
+}
